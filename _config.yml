@@ -1,0 +1,48 @@
+title: Virtual Spirit
+email: hello@virtualspirit.me
+description: >-
+  We are a young company that already has the experience of
+  setting up fast-paced exciting new digital businesses
+  internationally across all industries.
+baseurl: ""
+url: "https://virtualspirit.github.io"
+image: https://avatars.githubusercontent.com/u/49320137
+twitter_username: virspirit
+github_username: virtualspirit
+facebook_username: virspirit
+google_username: +VirtualSpiritMe
+linkedin_username: virtual-spirit
+
+markdown: kramdown
+highlighter: rouge
+feed:
+  path: feed/atom.xml
+
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-gist
+  - jemoji
+
+include:
+  - _pages
+
+exclude:
+  - .github
+  - .idea
+  - .vscode
+  - LICENSE
+  - CNAME
+  - README.md
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
